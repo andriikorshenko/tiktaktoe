@@ -8,9 +8,9 @@
 
 <main>
     <app-square 
-        *ngFor="let val of squares; let i = index"
-        value="val"
-        (click)="makeMove(i)">
+        *ngFor="let val of squares; let i = index" 
+        [value]="val"
+        (click)="makeMove(i)"> 
 
     </app-square>
 </main>

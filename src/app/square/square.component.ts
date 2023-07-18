@@ -1,15 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-square',
   template: `
-    <p>
-      {{ rando }}
-    </p>
+    <button *ngIf="!value">{{ value }}</button>
+    <button *ngIf="value == 'X'">{{ value }}</button>
+    <button *ngIf="value == 'O'">{{ value }}</button>
+    
   `,
-  styles: [
-  ]
+  styles: ['button { width: 100%; height: 100%; font-size: 5em !important; }']
 })
-export class SquareComponent {
-  rando = Math.random();
+export class SquareComponent  {
+
+  @Input() value!: 'X' | 'O';
+
 }
