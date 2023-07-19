@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "tiktaktoe",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

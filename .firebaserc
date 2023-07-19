@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tiktaktoe-6a8d2": {
+      "hosting": {
+        "tiktaktoe": [
+          "tiktaktoe-6a8d2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tiktaktoe-6a8d2"
+  }
+}
