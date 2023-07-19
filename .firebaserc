@@ -1,4 +1,8 @@
 {
+  "projects": {
+    "default": "tiktaktoe-c32f3",
+    "staging": "tiktaktoe-c32f3"
+  },
   "targets": {
     "tiktaktoe-6a8d2": {
       "hosting": {
@@ -8,7 +12,5 @@
       }
     }
   },
-  "projects": {
-    "default": "tiktaktoe-6a8d2"
-  }
+  "etags": {}
 }
